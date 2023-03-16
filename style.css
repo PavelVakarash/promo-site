@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 400vh;
+    background-color: blueviolet;
+}
+
+.frog-clever,
+.frog-dreams,
+.frog-laptop,
+.frog-miditation,
+.frog-reed-be-clever,
+.frog-reed-book,
+.frog-rest,
+.frog-study,
+.frog-reed-gut,
+.frog-loop,
+.frog-got-1,
+.frog-kids,
+.frog-top,
+.frog-best {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 7px;
+    position: relative;
+    z-index: 0;
+    border-radius: 100px;
+}
+.frogy {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    animation: changeOpacity 5s infinite;
+}
+.frogy-1 {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 340px;
+    animation: changeOpacity 7s infinite;
+}
+.frogy-2 {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 310px;
+    margin-left: 340px;
+    animation: changeOpacity 5s infinite;
+}
+.frogy-3 {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 310px;
+    animation: changeOpacity 7s infinite;
+}
+.frogy-5 {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 180px;
+    animation: changeScale 5s infinite;
+}
+.frog-1 {
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 180px;
+    margin-top: 370px;
+    animation: changeScale 7s infinite;
+}
+.A,
+.B,
+.C,
+.D,
+.E,
+.F,
+.G {
+    display: flex;
+    background: radial-gradient(circle, rgba(190, 251, 63, 1) 0%, rgba(19, 238, 11, 1) 100%);
+    border-radius: 100px;
+    animation: changeColor 5s infinite;
+   
+}
+
+span {
+    height: 400px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color:blueviolet;
+    display: flex;
+    align-items: center;
+}
+.text {
+    height: 400px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+@keyframes changeColor {
+    0% {
+        background: radial-gradient(circle, rgba(190, 251, 63, 1) 0%, rgba(19, 238, 11, 1) 100%);
+    }
+    100% {
+        background: radial-gradient(circle, rgb(63, 251, 141) 0%, rgb(151, 238, 11) 100%);
+    }
+}
+@keyframes changeOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes changeScale {
+    0% {
+        scale: 1;
+    }
+    100% {
+        scale: 1.2;
+    }
+}
+
